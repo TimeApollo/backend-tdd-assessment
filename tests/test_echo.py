@@ -14,7 +14,7 @@ class TestKatas(unittest.TestCase):
         # Run the command `python ./echo.py -h` in a separate process, then
         # collect it's output.
         process = subprocess.Popen(
-            ["python", "./echo.py", "-h"],
+            ["python", "../echo.py", "-h"],
             stdout=subprocess.PIPE)
         stdout, _ = process.communicate()
         usage = open("./USAGE", "r").read()

@@ -31,7 +31,7 @@ def create_parser():
     return parser.parse_args()
 
 
-def main(args):
+def main():
     """Implementation of echo"""
     args = create_parser()
 
