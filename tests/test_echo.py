@@ -1,8 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import subprocess
 import unittest
 import echo
 
 
+# Your test case class goes here
 class TestKatas(unittest.TestCase):
     def test_help(self):
         """ Running the program without arguments should show usage. """
@@ -16,13 +20,6 @@ class TestKatas(unittest.TestCase):
         usage = open("./USAGE", "r").read()
 
         self.assertEquals(stdout, usage)
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-import unittest
-import echo
-
-# Your test case class goes here
 
 
 if __name__ == '__main__':
