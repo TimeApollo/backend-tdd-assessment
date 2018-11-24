@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """
 TDD echo command line tool creation
 
@@ -11,7 +14,13 @@ TimeApollo
 __author__ = "TimeApollo"
 
 import argparse
+import sys
 
+
+def create_parser():
+    """Creates and returns an argparse cmd line option parser"""
+    pass
+    
 
 def main():
     parser = argparse.ArgumentParser(description="Perform transformation on input text.")
@@ -28,3 +37,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+def main(args):
+    """Implementation of echo"""
+    pass
+
+
+if __name__ == '__main__':
+    pass
